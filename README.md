@@ -14,7 +14,19 @@ Download the pretrained SAM ViT-B checkpoint and place it in the repository root
 
 ## Usage
 ### prepare dataset
-EchoNet-Dynamic, EchoNet-Pediatric, CAMUS
+EchoNet-Dynamic
+```bash
+https://aimi.stanford.edu/datasets/echonet-dynamic-cardiac-ultrasound
+```
+
+EchoNet-Pediatric
+```bash
+https://aimi.stanford.edu/datasets/echonet-pediatric
+```
+CAMUS
+```bash
+https://www.creatis.insa-lyon.fr/Challenge/camus/databases.html
+```
 
 ### Training
 
