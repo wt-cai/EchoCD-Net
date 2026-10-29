@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Model weights (download separately, see README)
+*.pth
+*.pt
+*.ckpt
+
+# Training outputs
+runs/
+logs/
+outputs/
+checkpoints/
+results/
+
+# Data
+data/
+dataset/
+datasets/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
