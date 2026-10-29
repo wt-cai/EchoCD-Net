@@ -27,7 +27,7 @@ python test.py
 
 ## Acknowledgement
 
-The work is based on MemSAM, and XMem. Thanks for the open source contributions to these efforts!
+The work is based on MemSAM, and Rein. Thanks for the open source contributions to these efforts!
 
 ## Citation
 if you find our work useful, please cite our paper, thank you!
