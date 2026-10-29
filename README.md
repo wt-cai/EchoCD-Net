@@ -32,5 +32,12 @@ The work is based on MemSAM, and XMem. Thanks for the open source contributions 
 ## Citation
 if you find our work useful, please cite our paper, thank you!
 ```bash
-Cai W, Ren H, Jing F, et al. SegMotion-Net: Segmentation-guided motion analysis for early myocardial infarction detection from echocardiography video[J]. Medical Image Analysis, 2026: 104212.
+@article{cai2026segmotion,
+  title={SegMotion-Net: Segmentation-guided motion analysis for early myocardial infarction detection from echocardiography video},
+  author={Cai, Weitao and Ren, Hao and Jing, Fengshi and Xu, Zhongzhi and Zhou, Jiandong and Liu, Peng and Sun, Yu and Jin, Wen and Ye, Kunlin and Qin, Danmin and others},
+  journal={Medical Image Analysis},
+  pages={104212},
+  year={2026},
+  publisher={Elsevier}
+}
 ```
