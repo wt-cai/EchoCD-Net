@@ -13,6 +13,9 @@ pip install -r requirements.txt
 Download the pretrained SAM ViT-B checkpoint and place it in the repository root
 
 ## Usage
+### prepare dataset
+EchoNet-Dynamic, EchoNet-Pediatric, CAMUS
+
 ### Training
 
 ```bash
