@@ -1,7 +1,7 @@
 # EchoCD-Net
 EchoCD-Net: Cross-Domain Left Ventricular Segmentation in Echocardiographic Video
 
-# Under review in the Medical Image Analysis journal
+### Under review in the Medical Image Analysis journal
 
 ## Installation
 
