@@ -165,14 +165,12 @@ class Config_EchoNet():
     modelname = "SAM"
 
 class Config_EchoNet_Video():
-    data_path = "/mnt/diskb5/caiweitao_private/cwt/MemSAM/dataset/EchoNet/echocycle"
-    # data_path = "/mnt/diskb5/caiweitao_private/cwt/dataset/test_data/EchoNet/echocycle"
+    data_path = ".dataset/EchoNet/echocycle"
     data_subpath = "EchoNet" 
-    save_path = "/mnt/diskb5/caiweitao_private/cwt/MemSAM_copy/checkpoints/EchoNet_2025_3_29/SACFBAdapter/"
-    result_path = "/mnt/diskb5/caiweitao_private/cwt/EchoSAM/result/EchoNet-pediatric---EchoSAM/echonet/"
-    tensorboard_path = "/mnt/diskb5/caiweitao_private/cwt/MemSAM_copy/tensorboard/EchoNet_2025_4_8/SACFBAdapter/"
-    # load_path = "/mnt/diskb5/caiweitao_private/cwt/MemSAM_copy/checkpoints/EchoNet_2025_2_19/ReinMemSAM_02190233_19_0.9449509960357537.pth"
-    load_path = save_path + "ReinMemSAM_04120207_19_0.9211755007656589.pth"
+    save_path = "./checkpoints/EchoNet/"
+    result_path = "./result/echonet/"
+    tensorboard_path = "./tensorboard/EchoNet/"
+    load_path = save_path + "04120207_19_0.9211755007656589.pth"
     save_path_code = "_"
 
     workers = 8                         # number of data loading workers (default: 8)
@@ -202,12 +200,12 @@ class Config_EchoNet_Video():
 
 class Config_EchoNet_pediatric():
 
-    data_path = "/mnt/diskb5/caiweitao_private/cwt/MemSAM/dataset/EchoNet-pediatric-A4C/echocycle"
-    data_subpath = "EchoNet-pediatric" 
-    save_path = "/mnt/diskb5/caiweitao_private/cwt/EchoSAM/checkpoints/EchoNet-pediatric_2025_6_9/"
-    result_path = "/mnt/diskb5/caiweitao_private/cwt/seg_model_EchoSAM/temp/EchoNet-pediatric_memsam/"
-    tensorboard_path = "/mnt/diskb5/caiweitao_private/cwt/EchoSAM/tensorboard/EchoNet-pediatric_2025_6_9/"
-    load_path = save_path + "SAMUS_10081703_24_0.9262574595178807.pth"
+    data_path = ".dataset/EchoNet_pediatric"
+    data_subpath = "EchoNet_pediatric" 
+    save_path = "./checkpoints/EchoNet_pediatric/"
+    result_path = "./result/EchoNet_pediatric/"
+    tensorboard_path = "./tensorboard/EchoNet_pediatric/"
+    load_path = save_path + "04120207_19_0.9211755007656589.pth"
     save_path_code = "_"
 
     workers = 8                         # number of data loading workers (default: 8)
@@ -238,13 +236,12 @@ class Config_EchoNet_pediatric():
 
 
 class Config_CAMUS_Video_Full():
-    # data_path = "./dataset/SAMUS/CAMUS_full"  # 
-    data_path = "/mnt/diskb5/caiweitao_private/cwt/MemSAM/dataset/CAMUS"  #
-    data_subpath = "CAMUS_full" 
-    save_path = "/mnt/diskb5/caiweitao_private/cwt/EchoSAM/result/Ablation/rein_se/CAMUS/"
-    result_path = "/mnt/diskb5/caiweitao_private/cwt/EchoGD-Net/result/Temporal_Consistency/CAMUS/"
-    tensorboard_path = "/mnt/diskb5/caiweitao_private/cwt/MemSAM_copy/tensorboard/CAMUS_full_2025_5_2/"
-    load_path = save_path + "SAMUS_10081703_24_0.9262574595178807.pth"
+    data_path = ".dataset/CAMUS"
+    data_subpath = "CAMUS" 
+    save_path = "./checkpoints/CAMUS/"
+    result_path = "./result/CAMUS/"
+    tensorboard_path = "./tensorboard/CAMUS/"
+    load_path = save_path + "04120207_19_0.9211755007656589.pth"
     save_path_code = "_"
 
     workers = 8                         # number of data loading workers (default: 8)
@@ -274,13 +271,12 @@ class Config_CAMUS_Video_Full():
 
 
 class Config_HMCQU:
-    # This dataset contain all the collected ultrasound dataset
-    data_path = "/mnt/diskb5/caiweitao_private/cwt/MemSAM/dataset/HMCQU"  #
+    data_path = ".dataset/HMCQU"
     data_subpath = "HMCQU" 
     save_path = "./checkpoints/HMCQU/"
-    result_path = "/mnt/diskb5/caiweitao_private/cwt/MemSAM_copy/result/HMCQU4/"
+    result_path = "./result/HMCQU/"
     tensorboard_path = "./tensorboard/HMCQU/"
-    load_path = save_path + "SAMUS_10081703_24_0.9262574595178807.pth"
+    load_path = save_path + "04120207_19_0.9211755007656589.pth"
     save_path_code = "_"
 
     workers = 1                         # number of data loading workers (default: 8)
@@ -310,13 +306,12 @@ class Config_HMCQU:
 
 
 class Config_HMCQU_GD2H:
-    # This dataset contain all the collected ultrasound dataset
-    data_path = "/mnt/diskb5/caiweitao_private/cwt/MemSAM/dataset/HMCQU_GD2H"  #
+    data_path = "./dataset/HMCQU_GD2H"
     data_subpath = "HMCQU_GD2H" 
-    save_path = "/mnt/diskb5/caiweitao_private/cwt/MemSAM_copy/checkpoints/HMCQU_GD2H/"
-    result_path = "/mnt/diskb5/caiweitao_private/cwt/EchoSAM/result/Ablation/rein_eca/HMCQU-GD2H/"
+    save_path = "./checkpoints/HMCQU_GD2H/"
+    result_path = "./result/HMCQU_GD2H/"
     tensorboard_path = "./tensorboard/HMCQU_GD2H/"
-    load_path = save_path + "SAMUS_10081703_24_0.9262574595178807.pth"
+    load_path = save_path + "04120207_19_0.9211755007656589.pth"
     save_path_code = "_"
 
     workers = 1                         # number of data loading workers (default: 8)
@@ -346,13 +341,12 @@ class Config_HMCQU_GD2H:
 
 
 class Config_FAHGM_GD2H_LV:
-    # This dataset contain all the collected ultrasound dataset
-    data_path = "/mnt/diskb5/caiweitao_private/cwt/MemSAM/dataset/FAHGM-GD2H-LV"  #
-    data_subpath = "FAHGM-GD2H-LV" 
-    save_path = "/mnt/diskb5/caiweitao_private/cwt/MemSAM_copy/checkpoints/FAHGM-GD2H-LV/"
-    result_path = "/mnt/diskb5/caiweitao_private/cwt/EchoSAM/result/Ablation/rein_eca/FAHGM-GD2H-LV/"
-    tensorboard_path = "./tensorboard/FAHGM-GD2H-LV/"
-    load_path = save_path + "SAMUS_10081703_24_0.9262574595178807.pth"
+    data_path = "./dataset/FAHGM_GD2H_LV"
+    data_subpath = "FAHGM_GD2H_LV" 
+    save_path = "./checkpoints/FAHGM_GD2H_LV/"
+    result_path = "./result/FAHGM_GD2H_LV/"
+    tensorboard_path = "./tensorboard/FAHGM_GD2H_LV/"
+    load_path = save_path + "04120207_19_0.9211755007656589.pth"
     save_path_code = "_"
 
     workers = 1                         # number of data loading workers (default: 8)
